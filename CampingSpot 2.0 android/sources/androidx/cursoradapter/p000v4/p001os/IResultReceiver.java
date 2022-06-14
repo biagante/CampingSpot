@@ -1,4 +1,4 @@
-package android.support.p000v4.p001os;
+package androidx.cursoradapter.p000v4.p001os;
 
 import android.os.Binder;
 import android.os.Bundle;

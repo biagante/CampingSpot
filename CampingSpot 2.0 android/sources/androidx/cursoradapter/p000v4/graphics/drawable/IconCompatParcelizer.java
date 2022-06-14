@@ -1,4 +1,4 @@
-package android.support.p000v4.graphics.drawable;
+package androidx.cursoradapter.p000v4.graphics.drawable;
 
 import androidx.core.graphics.drawable.IconCompat;
 import androidx.versionedparcelable.VersionedParcel;

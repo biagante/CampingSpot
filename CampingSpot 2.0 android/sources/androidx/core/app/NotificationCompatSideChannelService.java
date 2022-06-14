@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.IBinder;
 import android.os.RemoteException;
-import android.support.p000v4.app.INotificationSideChannel;
+import androidx.cursoradapter.p000v4.app.INotificationSideChannel;
 
 public abstract class NotificationCompatSideChannelService extends Service {
     public abstract void cancel(String str, int i, String str2);

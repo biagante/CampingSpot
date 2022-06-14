@@ -1,11 +1,10 @@
-package android.support.p000v4.p001os;
+package androidx.cursoradapter.p000v4.p001os;
 
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.os.RemoteException;
-import android.support.p000v4.p001os.IResultReceiver;
 
 /* renamed from: android.support.v4.os.ResultReceiver */
 public class ResultReceiver implements Parcelable {

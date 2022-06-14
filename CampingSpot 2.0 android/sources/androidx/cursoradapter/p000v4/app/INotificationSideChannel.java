@@ -1,4 +1,4 @@
-package android.support.p000v4.app;
+package androidx.cursoradapter.p000v4.app;
 
 import android.app.Notification;
 import android.os.Binder;
