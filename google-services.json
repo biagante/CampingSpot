@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "638369039639",
+    "project_id": "campingspot-6be5c",
+    "storage_bucket": "campingspot-6be5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638369039639:android:1f18ef52ee60f2c0bd6352",
+        "android_client_info": {
+          "package_name": "com.campingspot.campingspot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638369039639-15u4okr7s4ibuq9vjegkv78a0dfr266g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.campingspot.campingspot",
+            "certificate_hash": "2a8b745ae33fbf9aae0d9a183c1355e34e4fe7c8"
+          }
+        },
+        {
+          "client_id": "638369039639-m1m4jdjlulm9p7l3vd2j2so88c1l22km.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzTJ8LNydf6yCxmxgWfdc9Bn4ZQa1daoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638369039639-m1m4jdjlulm9p7l3vd2j2so88c1l22km.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
