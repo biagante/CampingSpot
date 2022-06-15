@@ -235,8 +235,8 @@ public class MainActivity extends AppCompatActivity {
                     r4.<init>(r5)
                     java.lang.String r5 = "android.intent.category.OPENABLE"
                     r4.addCategory(r5)
-                    java.lang.String r5 = "*/*"
-                    r4.setType(r5)
+                    java.lang.String r5 = "* */
+                    /*r4.setType(r5)
                     r5 = 0
                     r0 = 1
                     if (r6 == 0) goto L_0x0087

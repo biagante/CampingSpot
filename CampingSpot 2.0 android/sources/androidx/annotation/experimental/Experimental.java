@@ -2,7 +2,8 @@ package androidx.annotation.experimental;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.RetentionPolicy;
-import kotlin.Deprecated;
+
+import kotlin.*;
 import kotlin.Metadata;
 import kotlin.ReplaceWith;
 import kotlin.annotation.AnnotationRetention;
