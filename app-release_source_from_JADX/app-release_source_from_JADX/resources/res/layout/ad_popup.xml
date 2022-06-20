@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:background="@drawable/corner_dialog" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginStart="7dp" android:layout_marginEnd="7dp">
+    <ImageView android:id="@+id/adjson_header_image" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:scaleType="centerCrop" android:adjustViewBounds="true" android:contentDescription="@string/header_image"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/adjson_ad_asset_holder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:layout_below="@+id/adjson_header_image">
+        <ImageView android:id="@+id/adjson_app_icon" android:layout_width="70dp" android:layout_height="70dp" android:layout_margin="10dp"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp">
+            <TextView android:textSize="17sp" android:textStyle="bold" android:id="@+id/adjson_title" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TextView android:textSize="14sp" android:id="@+id/adjson_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <androidx.appcompat.widget.AppCompatRatingBar android:id="@+id/adjson_rating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:rating="5" android:stepSize="0.1" android:isIndicator="true" android:progressTint="@color/colorButtonPrimary" style="@style/Widget.AppCompat.RatingBar.Small"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <TextView android:textSize="14sp" android:id="@+id/adjson_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:textSize="12sp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/adjson_cta" android:background="@drawable/corner_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:layout_marginBottom="10dp" android:layout_below="@+id/adjson_ad_asset_holder"/>
+    <ImageButton android:id="@+id/button_close" android:background="@drawable/close_ad" android:layout_width="25dp" android:layout_height="25dp" android:src="@drawable/close" android:scaleType="fitEnd" android:layout_alignParentRight="true" android:contentDescription="@string/close_button" android:layout_alignParentEnd="true"/>
+</RelativeLayout>
