@@ -172,12 +172,9 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
-            /* JADX WARNING: Removed duplicated region for block: B:15:0x0049  */
-            /* JADX WARNING: Removed duplicated region for block: B:19:0x0082  */
-            /* JADX WARNING: Removed duplicated region for block: B:20:0x0087  */
-            /* Code decompiled incorrectly, please refer to instructions dump. */
+            
             public boolean onShowFileChooser(android.webkit.WebView r4, android.webkit.ValueCallback<android.net.Uri[]> r5, android.webkit.WebChromeClient.FileChooserParams r6) {
-                /*
+                
                     r3 = this;
                     com.campingspot.campingspot.MainActivity r4 = com.campingspot.campingspot.MainActivity.this
                     android.webkit.ValueCallback r4 = r4.mFilePathCallback
